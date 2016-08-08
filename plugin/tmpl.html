@@ -1,0 +1,16 @@
+<html>
+  <head>
+    <script src="underscore-min.js"></script>
+    <script src="raphael-min.js"></script>
+    <script src="flowchart.min.js"></script>
+  </head>
+  <body>
+    <div id="diagram"></div>
+    <script>
+      var diagram = flowchart.parse(`
+          `);
+      diagram.drawSVG('diagram', {
+      });
+    </script>
+  </body>
+</html>
